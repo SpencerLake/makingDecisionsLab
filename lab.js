@@ -55,6 +55,7 @@ if(amysBirthYear === brittanisBirthYear){
 // For problems 4-5 use the following lines of code:
 var arr = [10,20,30,40,50,60]
 
+console.log(arr)
 ////////// PROBLEM 4 //////////
 /*
   Create a variable named 'firstItem' and set it equal to the first value of the 'arr' array.
@@ -62,6 +63,9 @@ var arr = [10,20,30,40,50,60]
 
 //Code Here
 
+let firstItem = 10
+
+console.log(firstItem)
 
 ////////// PROBLEM 5 //////////
 /*
@@ -70,6 +74,11 @@ var arr = [10,20,30,40,50,60]
 
 //Code Here
 
+let lastItemRemoved = (arr.pop())
+
+console.log(arr)
+
+console.log(lastItemRemoved)
 ////////// PROBLEM 6 //////////
 
 // Do not edit the code below.
